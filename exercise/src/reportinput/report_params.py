@@ -1,7 +1,7 @@
 from typing import List
 
 
-def gen_params(a: str, b: str) -> List[str]:
+def gen_params(a, b) -> List[str]:
     try:
         # Check if inputs are empty or None
         if not a or not b:
